@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Projeto DrivenEats</title>
+</head>
+<body>
+ <div class="topo">
+        <div class="nome-da-pagina">
+            <h1> DrivenEats</h1>
+            <h2>Sua comida em 6 minutos</h2>
+        </div>
+ </div>
+ <div class="conteudo-pagina">
+    <div class="escolha">
+        <h3>Primeiro, seu prato</h3>
+    </div>
+   <div class="container" >
+    <div class="caixa-de-pedidos" > 
+        <div class="pedido pratoUm" onclick="selecionarPedido('pratoUm')">
+            <img class="imagem-do-pedido" src="imagens/202112101536_1FB8_i.png">
+            <h4>Bacon</h4>
+            <h5>Hamburguer 110 gramas, com muito bacon</h5>
+            <h6>R$ 29,90</h6>
+        </div>
+        <div class="pedido pratoDois" onclick="selecionarPedido('pratoDois')">
+            <img class="imagem-do-pedido" src="imagens/202112101537_T2D3_i.png">
+            <h4>Americano</h4>
+            <h5>Hamburguer 110 gramas, com bacon e maionese</h5>
+            <h6>R$ 29,90</h6>
+        </div>
+        <div class="pedido pratoTres" onclick="selecionarPedido('pratoTres')">
+            <img class="imagem-do-pedido" src="imagens/202202041217_5X08_i.png">
+            <h4>Mega</h4>
+            <h5>Hamburguer 220 gramas, com cheddar</h5>
+            <h6>R$ 29,90</h6>
+        </div>
+        <div class="pedido pratoQuatro" onclick="selecionarPedido('pratoQuatro')">
+            <img class="imagem-do-pedido" src="imagens/202203041835_2F4O_i (2).png">
+            <h4>Clássico</h4>
+            <h5>Hamburguer 110 gramas, com salada e molho</h5>
+            <h6>R$ 29,90</h6>
+        </div>
+    </div>
+   </div>   
+    <div class="escolha">
+        <h3>Agora, sua bebida</h3>
+    </div>
+   <div class="container" >
+    <div class="caixa-de-pedidos">
+        <div class="pedido bebidaUm" onclick="selecionarBebida('bebidaUm')">
+            <img class="imagem-do-pedido" src="imagens/202112210924_G141_i.png">
+            <h4>Coca-cola</h4>
+            <h5>Lata 350ml</h5>
+            <h6>R$ 4,90</h6>
+        </div>
+        <div class="pedido bebidaDois" onclick="selecionarBebida('bebidaDois')">
+            <img class="imagem-do-pedido" src="imagens/202112210940_73BR_i.png">
+            <h4>Agua sem gás</h4>
+            <h5>Garrafa 200ml</h5>
+            <h6>R$ 4,90</h6>
+        </div>
+        <div class="pedido bebidaTres" onclick="selecionarBebida('bebidaTres')">
+            <img class="imagem-do-pedido" src="imagens/202103190903_ztC8_.png">
+            <h4>Cerveja long-neck</h4>
+            <h5>Garrafa 355ml</h5>
+            <h6>R$ 4,90</h6>
+        </div>
+        <div class="pedido bebidaQuatro" onclick="selecionarBebida('bebidaQuatro')">
+            <img class="imagem-do-pedido" src="imagens/202112210940_T70L_i.png">
+            <h4>Suco</h4>
+            <h5>Suco 290ml</h5>
+            <h6>R$ 4,90</h6>
+        </div>
+    </div>
+   </div> 
+    <div class="escolha">
+        <h3>Por fim, sua sobremesa</h3>
+    </div>
+    <div class="container" >
+    <div class="caixa-de-pedidos">
+        <div class="pedido sobremesaUm" onclick="selecionarSobremesa('sobremesaUm')">
+            <img class="imagem-do-pedido" src="imagens/202112101547_U0I7_i.png">
+            <h4>Mini torta</h4>
+            <h5>Sabor chocolate e baunilha</h5>
+            <div class="preço"><h6>R$ 7,90</h6></div>
+        </div>
+        <div class="pedido sobremesaDois" onclick="selecionarSobremesa('sobremesaDois')">
+            <img class="imagem-do-pedido" src="imagens/202004131412_ZFO4_m.png">
+            <h4>Mini churros</h4>
+            <h5>Com recheio de doce de leite</h5>
+            <h6>R$ 7,90</h6>
+        </div>
+        <div class="pedido sobremesaTres" onclick="selecionarSobremesa('sobremesaTres')">
+            <img class="imagem-do-pedido" src="imagens/202110071703_74W4_i.png">
+            <h4>Cookie e sorvete</h4>
+            <h5>Cookie com sorvete de creme</h5>
+            <h6>R$ 7,90</h6>
+        </div>
+        <div class="pedido sobremesaQuatro" onclick="selecionarSobremesa('sobremesaQuatro')">
+            <img class="imagem-do-pedido" src="imagens/pudim 2.png">
+            <h4>Pudim</h4>
+            <h5>Pudim de leite condensado</h5>
+            <h6>R$ 7,90</h6>
+        </div>
+    </div>
+   </div>
+ </div>
+ <div class="fim-da-pagina">
+    <div class="pedido-pronto" onclick="enviarMensagem()">
+      <h7>Fechar pedido</h7>
+    </div>
+ </div>
+ <script src="scripts.js"></script>
+</body>
+</html>
